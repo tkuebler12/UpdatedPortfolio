@@ -4,54 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Timothy Kuebler</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Timothy's Portfolio</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Portfolio</span>
+          <p>The links below provide access to the repositories of projects I have done during the course of the 
+            bootcamp and the three I feel I have done the best at.
+          </p>
         </div>
-      </nav>
-      <main class="container">
-        <section class="row">
-            <div class="col-md-8">
-                <h1 class="">
-                    Portfolio
-                </h1>
-                <hr/>
-            <div class="row">
-                    <div class="col-lg-6">
-                        <img src="">
-                    </div>
-                </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <img src="https://via.placeholder.com/300">
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/300">
-                </div>
-            </div>
-      <footer class="footer">
-        <div class="container">
-            <span class="text-muted">&#169;Copyright</span>
+        <div class="card-action">
+          <a href="https://github.com/tkuebler12/ProjectOne">Project One</a>
+          <a href="https://github.com/tkuebler12/WeatherDashboard">Weather Dashboard</a>
+          <a href="https://github.com/tkuebler12/CodingQuiz">Coding Quiz</a>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
